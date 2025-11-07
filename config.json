@@ -1,0 +1,27 @@
+
+{
+  "agents": [
+    {
+      "name": "sql-injection-agent",
+      "github": "https://github.com/disruptiq/sql-injection-agent",
+      "branch": "main",
+      "install_command": "pip install -r requirements.txt",
+      "run_command": "python main.py",
+      "output_file": "output.json"
+    },
+    {
+      "name": "dynamic-analysis-agent",
+      "github": "https://github.com/disruptiq/dynamic-analysis-agent",
+      "branch": "main",
+      "install_command": "pip install -r requirements.txt",
+      "run_command": "python main.py",
+      "output_file": "output.json"
+    }
+  ],
+  "output_dir": "./output",
+  "codebase": ".",
+  "other_settings": {
+    "timeout": 300,
+    "parallel": true
+  }
+}
