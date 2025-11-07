@@ -3,7 +3,7 @@
   "agents": [
     {
       "name": "sql-injection-agent",
-      "github": "https://github.com/disruptiq/",
+      "github": "https://github.com/disruptiq/sca-agent",
       "branch": "main",
       "install_command": "pip install -r requirements.txt",
       "run_command": "python main.py",
